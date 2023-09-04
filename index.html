@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yagyadeep Ahirwar</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="shortcut icon" href="./project/myimage.png" type="image/x-icon">
+</head>
+<body>
+    <!-- navbar  -->
+    <nav class="flex justify-between bg-slate-800 px-4 py-4" id="home">
+        <div class="left"><h2 class="font-bold text-2xl heading heading-text"><span>Y</span>agyadeep Ahirwar</h2></div>
+        <div class="right flex items-center">
+            <ul class="gap-4 list hidden md:flex">
+                <a href="#home">
+                    <li class="text-gray-300 line px-4 py-2 rounded-sm transition-all" style="--i:1;">Home</li>
+                </a><a href="#about">
+                    <li class="text-gray-300 line focus:bg-slate-300 px-4 py-2 rounded-sm transition-all" style="--i:2;">About me</li>
+                </a><a href="#skills">
+                    <li class="text-gray-300 line focus:bg-blue-400 px-4 py-2 rounded-sm transition-all" style="--i:3;">Skills</li>
+                </a><a href="#projects">
+                    <li class="text-gray-300 line focus:bg-blue-400 px-4 py-2 rounded-sm transition-all" style="--i:4;">Projects</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- hero page  -->
+    <div class="md:flex md:flex-row md:justify-between items-center flex flex-col" style="height: 90vh; background: url('./project/back.jpg');">
+        <div class="mainleft md:px-8 flex flex-col items-start gap-4 order-2 ml-4 md:order-1">
+            <h3 class="md:text-5xl text-2xl font-semibold ml-4 top toptext" style="color:rgb(57, 248, 248);">This is </h3>
+            <h1 class="md:text-9xl text-5xl font-bold uppercase heading text w-screen md:w-full">Yagyadeep</h1>
+            <p class="font-bold md:text-4xl text-2xl font-sans uppercase top" style="color:rgb(57, 248, 248);">I am a <span class="text-green-500 movetext" id="multitext"></span></p>
+            <div class="icons flex gap-3">
+                <a href=""><i class='bx bxl-youtube text-2xl border right border-green-400 rounded-full text-green-400 p-2 hover:bg-green-400 hover:text-slate-800 transition-all icon' style="--i:4;"></i></a>
+                <a href=""><i class='bx bxl-instagram text-2xl border right border-green-400 rounded-full text-green-400 p-2 hover:bg-green-400 hover:text-slate-800 transition-all icon' style="--i:5;"></i></a>
+                <a href=""><i class='bx bxl-facebook text-2xl border right border-green-400 rounded-full text-green-400 p-2 hover:bg-green-400 hover:text-slate-800 transition-all icon' style="--i:6;"></i></a>
+                <a href=""><i class='bx bxl-linkedin text-2xl border right border-green-400 rounded-full text-green-400 p-2 hover:bg-green-400 hover:text-slate-800 transition-all icon' style="--i:7;"></i></a>
+            </div>
+            <div class="mt-4"><a href="" class="px-4 py-2 font-bold text-slate-700 bg-yellow-500 rounded-md shadow-xl transition-colors hover:bg-slate-800 hover:text-yellow-500" style="box-shadow:0px 0px 10px 1px rgb(238, 238, 34)">Download CV</a></div>
+        </div>
+        <div class="mainright order-1 md:order-2"><img src="./project/myimage.png" alt="" class="myimage w-[20rem] md:w-[30rem]"></div>
+    </div>
+
+    <!-- About me section -->
+    <section class="about_me bg-slate-800 md:flex md:flex-row justify-between md:items-center md:p-10 p-4 flex flex-col" id="about">
+        <div class="left_aboutme flex-1">
+            <img src="./project/myimage3.png" alt="myimage" class="w-9/12">
+        </div>
+        <div class="right_aboutme flex-1">
+            <p class="uppercase font-sans text-sm text-slate-500">Let us intruduce myself</p>
+            <h3 class="text-2xl font-bold text_glow dm">About Me</h3>
+            <p class="font-sans text-md text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ex possimus! Similique explicabo porro natus qui praesentium illum. Voluptates quibusdam ad minus aliquam. Repellat blanditiis voluptas obcaecati! Ipsum excepturi accusantium, alias maiores commodi harum itaque? Temporibus tenetur cum modi impedit totam, autem eligendi, illum cupiditate rem sed, repudiandae a numquam? Eum vero quiodit!</p>
+            <div class="mt-10"><a href="" class="px-4 py-2 font-bold text-slate-700 bg-yellow-500 rounded-md shadow-xl transition-colors hover:bg-slate-800 hover:text-yellow-500" style="box-shadow:0px 0px 10px 1px rgb(238, 238, 34)">Read More</a></div>
+        </div>
+    </section>
+
+    <!-- skills section  -->
+    <section class="skills flex flex-col bg-slate-900 py-4 px-10" id="skills">
+        <div><h1 class="text-center text-3xl dm text_glow font-extrabold">My Skills</h1></div>
+            <div class="data md:flex md:flex-row justify-between md:items-start py-8 flex flex-col">
+            <div class="data_left flex flex-col items-start flex-1 w-[19rem]">
+                <div><h3 class="text-2xl text-slate-300 text-center mt-4">Devlopment Skills</h3></div>
+                <div class="md:w-[24rem] w-[19rem]">
+                    <div class="bar md:w-96 md:mt-4 w-full">
+                       <div class="flex justify-between"><p class="text-md text-slate-400">HTML5</p> <p class="text-md text-slate-400">99%</p></div>
+                       <div class="w-full bg-slate-700 rounded-full h-2 relative mt-2">
+                       <div class="absolute h-2 w-[99%] bg-sky-400 rounded-full glow process probar" style="--persen:99%;"></div>
+                       </div>
+                    </div>
+                    <div class="bar md:w-96 md:mt-4 w-full">
+                        <div class="flex justify-between"><p class="text-md text-slate-400">CSS3</p> <p class="text-md text-slate-400">99%</p></div>
+                        <div class="w-full bg-slate-700 rounded-full h-2 relative mt-2">
+                        <div class="absolute h-2 w-[99%] bg-sky-400 rounded-full glow process probar" style="--persen:99%;"></div>
+                        </div>
+                     </div>
+                     <div class="bar md:w-96 md:mt-4 w-full">
+                        <div class="flex justify-between"><p class="text-md text-slate-400">JavaScript</p> <p class="text-md text-slate-400">80%</p></div>
+                        <div class="w-full bg-slate-700 rounded-full h-2 relative mt-2">
+                        <div class="absolute h-2 w-[80%] bg-sky-400 rounded-full glow process probar" style="--persen:80%;"></div>
+                        </div>
+                     </div>
+                     <div class="bar md:w-96 md:mt-4 w-full">
+                        <div class="flex justify-between"><p class="text-md text-slate-400">NodeJS</p> <p class="text-md text-slate-400">50%</p></div>
+                        <div class="w-full bg-slate-700 rounded-full h-2 relative mt-2">
+                        <div class="absolute h-2 w-[50%] bg-sky-400 rounded-full glow process probar" style="--persen:50%;"></div>
+                        </div>
+                     </div>
+                     <div class="bar md:w-96 md:mt-4 w-full">
+                        <div class="flex justify-between"><p class="text-md text-slate-400">MongoDB</p> <p class="text-md text-slate-400">50%</p></div>
+                        <div class="w-full bg-slate-700 rounded-full h-2 relative mt-2">
+                        <div class="absolute h-2 w-[50%] bg-sky-400 rounded-full glow process probar" style="--persen:50%;"></div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="data_left flex flex-col items-start flex-1">
+                <div><h3 class="text-2xl text-slate-300 text-center mt-4 w-full">Devlopment Skills</h3></div>
+                <div class="md:w-[24rem] w-[19rem]">
+                    <div class="bar md:w-96 md:mt-4 w-full">
+                       <div class="flex justify-between"><p class="text-md text-slate-400">C Programming</p> <p class="text-md text-slate-400">80%</p></div>
+                       <div class="w-full bg-slate-700 rounded-full h-2 relative mt-2">
+                       <div class="absolute h-2 w-[80%] bg-sky-400 rounded-full glow process probar" style="--persen:80%;"></div>
+                       </div>
+                    </div>
+                    <div class="bar md:w-96 md:mt-4 w-full">
+                        <div class="flex justify-between"><p class="text-md text-slate-400">C++</p> <p class="text-md text-slate-400">80%</p></div>
+                        <div class="w-full bg-slate-700 rounded-full h-2 relative mt-2">
+                        <div class="absolute h-2 w-[80%] bg-sky-400 rounded-full glow process probar" style="--persen:80%;"></div>
+                        </div>
+                     </div>
+                     <div class="bar md:w-96 md:mt-4 w-full">
+                        <div class="flex justify-between"><p class="text-md text-slate-400">Basic DSA</p> <p class="text-md text-slate-400">33%</p></div>
+                        <div class="w-full bg-slate-700 rounded-full h-2 relative mt-2">
+                        <div class="absolute h-2 w-[33%] bg-sky-400 rounded-full glow process probar" style="--persen:33%;"></div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            </div>
+            
+    </section>
+
+    <!-- // projects section  -->
+     <section class="flex flex-col bg-slate-800" id="projects">
+        <div><h1 class="text-center text-3xl dm text_glow font-extrabold mt-4">My Projcets</h1></div>
+        <div class="proContainer flex flex-col p-8 gap-8 sm:items-center md:items-start">
+          <!-- <div class="card md:w-2/3 md:h-96 w-full rounded-md rightprotemp rightpro">
+            <div class="prodata h-full w-ful rounded-md p-8 gap-3">
+                <h2 class="text-left text-3xl dm text_glow font-extrabold">Project Name</h2>
+                 <h4 class="text-slate-300 font-bold text-2xl">Project Type</h4>
+                 <p class="text-slate-400 md:w-1/2 w-[90%]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, maxime ea accusamus at itaque alias repudiandae maiores quod temporibus debitis.</p>
+                 <div class="protools flex gap-4 mt-2">
+                    <i class='bx bxl-html5 text-2xl right rounded-ful p-2 transition-all icon1' style="--i:6; --color:rgb(216, 74, 17);"></i>
+                    <i class='bx bxs-file-css text-2xl right rounded-ful p-2 transition-all icon1' style="--i:6; --color:rgb(57, 188, 248);"></i>
+                    <i class='bx bxl-tailwind-css text-2xl right rounded-ful p-2 transition-all icon1' style="--i:6; --color:rgb(57, 188, 248);"></i>
+                    <i class='bx bxl-javascript text-2xl right rounded-ful p-2 transition-all icon1' style="--i:6; --color:rgb(238, 241, 45);"></i>
+                    <i class='bx bxl-nodejs text-2xl right rounded-ful p-2 transition-all icon1' style="--i:6; --color:rgb(101, 236, 68);"></i>
+                 </div>
+                 <div class="mt-8"><a href="" class="px-4 py-2 font-bold text-slate-700 bg-yellow-500 rounded-md  shadow-xl transition-colors hover:bg-slate-800 hover:text-yellow-500" style="box-shadow:0px 0px 10px 1px rgb(238, 238, 34)">View</a></div>
+            </div>
+          </div> -->
+          <div class="card md:w-2/3 md:h-96 w-full rounded-md leftpro" style="background: url('./project/pro2.png');">
+            <div class="prodata h-full w-ful rounded-md p-8 gap-3">
+                <h2 class="text-left text-3xl dm text_glow font-extrabold">NetFlix Clone</h2>
+                 <h4 class="text-slate-300 font-bold text-2xl">Internship Project</h4>
+                 <p class="text-slate-400 md:w-1/2 w-[90%]">In this project i am use many feature to build this clone and i learn more about the web development.</p>
+                 <div class="protools flex gap-4 mt-2">
+                    <i class='bx bxl-html5 text-2xl right rounded-ful p-2 transition-all icon1' style="--i:6; --color:rgb(216, 74, 17);"></i>
+                    <i class='bx bxs-file-css text-2xl right rounded-ful p-2 transition-all icon1' style="--i:6; --color:rgb(57, 188, 248);"></i>
+                    <i class='bx bxl-tailwind-css text-2xl right rounded-ful p-2 transition-all icon1' style="--i:6; --color:rgb(57, 188, 248);"></i>
+                    <i class='bx bxl-javascript text-2xl right rounded-ful p-2 transition-all icon1' style="--i:6; --color:rgb(238, 241, 45);"></i>
+                    <i class='bx bxl-nodejs text-2xl right rounded-ful p-2 transition-all icon1' style="--i:6; --color:rgb(101, 236, 68);"></i>
+                 </div>
+                 <div class="mt-8"><a target="_blank" href="https://yagyadeep786.github.io/CVIP_Netflix_Clone/public/" class="px-4 py-2 font-bold text-slate-700 bg-yellow-500 rounded-md  shadow-xl transition-colors hover:bg-slate-800 hover:text-yellow-500" style="box-shadow:0px 0px 10px 1px rgb(238, 238, 34)">View Project</a></div>
+            </div>
+            
+          </div>
+        </div>
+     </section>
+    
+     <!-- // form section  -->
+
+     <section class="bg-slate-900 flex items-center justify-center">
+        <form action="" class="md:w-1/2 w-full flex flex-col gap-4 p-8 items-end">
+            <input type="text" placeholder="Enter your name" class="capitalize px-2 py-1 text-slate-300 bg-slate-700 rounded-md placeholder:text-sky-400 outline-2 outline-sky-400 w-full">
+            <input type="email" placeholder="Enter your email" class="capitalize px-2 py-1 text-slate-300 bg-slate-700 rounded-md placeholder:text-sky-400 outline-2 outline-sky-400 w-full">
+            <textarea name="" id="" cols="20" rows="10" placeholder="Enter your comment" class="capitalize text-slate-300 bg-slate-700 rounded-md placeholder:text-sky-400 outline-2 outline-sky-400 w-full">
+            </textarea>
+            <input type="submit" value="Comment" class="px-4 py-2 font-bold text-slate-700 bg-sky-400 rounded-md  shadow-xl transition-colors hover:bg-slate-800 hover:text-sky-400 cursor-pointer" style="box-shadow:0px 0px 10px 1px rgb(58, 242, 255)">
+        </form>
+     </section>
+
+     <!-- // copyright div  -->
+     <section class="bg-slate-800 flex items-center justify-between p-4">
+        <h2 class="text-2xl text-slate-300 font-bold">&copy; All Rights Revered || 2023</h2>
+       <a href="#home"> <i class='bx bx-up-arrow-alt cursor-pointer text-2xl right rounded-ful p-2 transition-all icon1' style="--i:6; --color:rgb(57, 188, 248);"></i></a>
+     </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
